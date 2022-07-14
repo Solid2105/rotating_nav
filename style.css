@@ -56,6 +56,14 @@ body {
     -o-transition: transform 0.5s linear;
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}
+
 .circle button {
     cursor: pointer;
     color: #fff;
