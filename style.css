@@ -57,6 +57,7 @@ body {
 }
 
 .circle button {
+    cursor: pointer;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -83,4 +84,8 @@ body {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform-origin: top left;
+}
+
+.content img {
+    max-width: 100%;
 }
